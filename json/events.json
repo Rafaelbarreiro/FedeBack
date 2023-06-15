@@ -1,0 +1,35 @@
+[
+    {
+        "title": "FEDEH te invita a tomar el te",
+        "subtitle":"Veni a pasar una tarde diferente",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1679531258/zetaiSep22_ydenoh.jpg",
+        "detail":[ "El día 2 de Noviembre del 2022 te invitamos a pasar una tarde distinta.", "Lugar: Salón ......"],
+        "imgdetail": [],
+        "date": "2 Noviembre 2022"
+    },
+    {
+        "title": "Una noche Sinfónica",
+        "subtitle":"El españolismo en los siglos XVIII y XX",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1679522718/virla_nov22_sum74o.jpg",
+        "detail":[ "El 11 de noviembre 2022 te invitamos a una noche musical, reviviendo el romanticismo del siglo XVII y XX."],
+        "imgdetail": [],
+        "date": "11 Noviembre 2022"
+    },
+    {
+        "title": "Campaña de donación de sangre",
+        "subtitle":"Un pilar fundamental",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1679522263/colecta_dic22_h05ry3.jpg",
+        "detail":[ "El día 22 diciembre del 2022 estaremos recibiendo donantes de sangre.", "Lugar: Hospital Nestor Kirchner.","Si no podes asistir te agradecemos su difusión.","Reservá tu turno escribiendo a: hemoterapiahnkirchner@gmail.com. "],
+        "imgdetail": [],
+        "date": "02/12/2022"
+    },
+    {
+        "title": "Reviví el Arbol de Navidad de Fedeh",
+        "subtitle":"Cada año seguimos renovando la FE",
+        "img": "https://res.cloudinary.com/degd9cgyd/image/upload/v1674269033/arbol.jpg_bl87gc.jpg",
+        "detail":[ "La Fundación FEDEH anunció que  ya se encuentran a la venta las estrellas para sumar al gran árbol navideño de los deseos.", "Al iguel que años anteiores, FEDEH se acercará a la comunidad tucumana con todos los buenos deseos, anhelos y aspiraciones expresados en cada estrella que en él se colocarán en vísperas de Navidad, como cierre del año y proyección de nuevos desafíos.","Durante el evento al que se invita a participar a todas las familias, se realizará la bendición del árbol y de las estrellas que estarán elevadas en él. En el acto también habrá un pesebre viviente y un espectáculo musical integrado por villancicos y canciones alusivas a la fecha, a cargo de artistas locales. Para el evento se pide que lleven alimentos no perecederos para las organizaciones con las que colaborará la fundación.","Las estrellas navideñas personales y/o familiares  en la sede de la Fundación FEDEH, en el 3° piso del Hospital Kirchner, en calle Mendoza 128 de S.M. de Tucumán, o bien contactarse al celular 381-561-0873. "],
+        "imgdetail": ["https://res.cloudinary.com/degd9cgyd/image/upload/v1676338932/arbol3_urrd8l.jpg", "https://res.cloudinary.com/degd9cgyd/image/upload/v1676338933/arbol1_ookxo7.jpg", "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1678886559/WhatsApp_Image_2023-03-15_at_10.20.22_qzbeu8.jpg"],
+        "date": "14 Diciembre 2022"
+    }
+    
+]

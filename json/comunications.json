@@ -1,0 +1,22 @@
+[
+   
+    {
+        "title": "FEDEH te necesita",
+        "subtitle":"Hoy más que nunca juntos",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1679579194/nota_23-3_rnirsk.jpg",
+        "detail":[ "La Fundación FEDEH solicita a sus socios y amigos a apoyarnos hoy más que nunca para poder llevar a cabo nuestro mayor sueño, el Centro de Hemato-oncología "],
+        "imgdetail": [],
+        "date": "23 Marzo 2023",
+        "status": "active"
+    },
+    {
+        "title": "CAMPAÑA DE DONACION",
+        "subtitle":"Convertite en Héroe",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1686096769/donacion2405_txykgk.jpg",
+        "detail":[ "Aún no existe forma de sintetizar o sustituir la sangre. La única manera de contar con ella es que tomemos conciencia de la importancia de donar sangre de manera VOLUNTARIA y RECURRENTE."],
+        "imgdetail": [],
+        "date": "24 Mayo 2023",
+        "status": "active"
+    }
+    
+]
