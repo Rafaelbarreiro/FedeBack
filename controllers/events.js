@@ -22,7 +22,7 @@ const getEvents = async (req, res, next) => {
           eventByName.length > 0
           ? res.status(200).json(eventByName[0])
           : res.status(404).json({message: "event not found"});
-      }
+      } 
         else {
           allEvents.length > 0
           ? res.status(200).json(allEvents)
@@ -35,8 +35,8 @@ const getEvents = async (req, res, next) => {
     next();
 };
 const geteventById = async (req, res) => {
-    const {id} = req.params;
-    const event = await Events.findById(id, projection)
+    const {_id} = req.params;
+    const event = await Events.findById(_id, projection)
     res.status(200).json(event)
 }
 const deleteEvents = async (req, res) => {

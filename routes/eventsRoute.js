@@ -11,12 +11,12 @@ router
     .get(getEvents)
     .post(postEvents)
 router
-    .route('/:id')
+    .route('/:_id')
     .get(geteventById)
     .delete(deleteEvents)
 /* router.route('/:title')
     .put(updateEvents)
- */
-
+ */   
+   
 
 module.exports = router;
