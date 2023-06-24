@@ -1,5 +1,13 @@
 [
     {
+        "title": "Recital Arte y Vida",
+        "subtitle":"FEDEH te invita al teatro",
+        "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1687615102/losJuanMayo23_v1gg2l.jpg",
+        "detail":[ "El 18 de Mayo 2023 te invitamos a vivir un inclreible show juanto a los Juan.", "Lugar: Teatro Alberdi"],
+        "imgdetail": [],
+        "date": "18 Mayo 2023"
+    },
+    {
         "title": "FEDEH te invita a tomar el te",
         "subtitle":"Veni a pasar una tarde diferente",
         "img": "https://res.cloudinary.com/dhmz7s3gc/image/upload/v1679531258/zetaiSep22_ydenoh.jpg",
