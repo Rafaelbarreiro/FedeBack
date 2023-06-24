@@ -24,6 +24,10 @@ const EventsSchema = new Schema({
     date:{
         type: Date 
     },
+    amount: {
+        type: Number,
+        default: 0
+    }
 })
 
 module.exports =  model('Events', EventsSchema)

@@ -3,7 +3,8 @@ const {
     getEvents,
     geteventById,
     deleteEvents,
-    postEvents} = require ("../controllers/events")
+    postEvents,
+    PayEvent} = require ("../controllers/events")
 const router = express.Router()
 
 router
@@ -14,6 +15,9 @@ router
     .route('/:_id')
     .get(geteventById)
     .delete(deleteEvents)
+router
+    .route('/buy/:_id')
+    .post(PayEvent)
 /* router.route('/:title')
     .put(updateEvents)
  */   

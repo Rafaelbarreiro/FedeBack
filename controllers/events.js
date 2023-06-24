@@ -1,5 +1,6 @@
 const Events = require ('../models/Events')
 const jsonAll = require ('../json/events.json')
+const {mercadopago} = require('../utils/mercadoPago');
 
 const populateEvents = async () => {
     for (p of jsonAll){
@@ -75,11 +76,54 @@ const postEvents = async (req, res) => {
       res.status(404).json(error.message)
     }
 }
+///////////////////////MERCADO PAGO/////////////
+const PayEvent = async (req, res) => {
+  const {_id} = req.params
+  const datos = req.body
+  const Event = await Events.findById(_id, projection)
+ console.log(datos)
+  let preference = {
+    transaction_amount: parseInt(datos.amount*1.15), //sumo el 15% comision de ML
+    items: [
+      {
+        id: Event._id,
+        title: Event.title,
+        unit_price: datos.amount,
+        quantity: 1,
+        payer:{
+          email: datos.email,
+          name: datos.nickname
+        }
+      },
+    ],
+    back_urls: {
+      success: `${process.env.FRONT_URL}/ipayments/`,
+      failure: `${process.env.FRONT_URL}/paymentsfail`,
+      pending: `${process.env.FRONT_URL}/paymentspending`
+    },
+     auto_return: "approved" 
+  };
+  mercadopago.preferences
+  .create(preference)
+  .then(function (response) {
+    // En esta instancia deberás asignar el valor dentro de response.body.id por el ID de preferencia solicitado en el siguiente paso
+  //console.log(response)
+  
+    res.status(200).json(response.body.init_point);
+  
+  })
+  .catch(function (error) {
+    console.log(error.message);
+  });
+ }
+
+
 
 module.exports = {
     populateEvents,
     getEvents,
     geteventById,
     deleteEvents,
-    postEvents
+    postEvents,
+    PayEvent
 }
