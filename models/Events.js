@@ -22,7 +22,7 @@ const EventsSchema = new Schema({
         default: "fundacion Fedeh"
     },
     date:{
-        type: Date 
+        type: String
     },
     amount: {
         type: Number,
