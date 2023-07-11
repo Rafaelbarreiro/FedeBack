@@ -14,7 +14,7 @@ router
     .post(postArticles)
     .put(updateArticles)
 router
-    .route('/:id')
+    .route('/:_id')
     .get(getarticleById)
     .delete(deleteArticles)
 /* router.route('/:title')

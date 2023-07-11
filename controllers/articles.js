@@ -47,8 +47,8 @@ const getArticles = async (req, res, next) => {
 };
 
 const getarticleById = async (req, res) => {
-  const {id} = req.params;
-  const article = await Articles.findById(id, projection)
+  const {_id} = req.params;
+  const article = await Articles.findById(_id, projection)
   res.status(200).json(article)
 }
 
