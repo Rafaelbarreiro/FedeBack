@@ -51,7 +51,7 @@ app.use("/events", eventsRoute);
 app.use("/articles", articlesRoute);
 app.use("/comunications", comunicationsRoute);
 app.use("/email", emailRoute);
-//app.use("/donations", donationRoute);
+app.use("/donations", donationRoute);
 
 const PORT = process.env.PORT || 3001;
 const servidor = app.listen(PORT, () => {
