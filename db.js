@@ -18,13 +18,7 @@ const conectarDB = async () => {
         process.exit(1)
     }
   }
-  
-/*   mongoose.connect('mongodb://127.0.0.1:27017/fundacionfedeh',
-    {
-        useNewUrlParser:true,
-        useUnifiedTopology: true,
-    }
-    ); */
+
 
   module.exports = {
     conectarDB
